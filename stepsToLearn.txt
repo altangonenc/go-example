@@ -1,0 +1,6 @@
+export GO111MODULE=on
+
+go mod init altan.com/go-example
+
+go run main.go
+
