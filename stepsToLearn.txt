@@ -1,5 +1,7 @@
 export GO111MODULE=on
 
+Easy db run : docker run --name my-mariadb -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mariadb
+
 go mod init altan.com/go-example
 
 go run main.go
